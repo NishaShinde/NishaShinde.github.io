@@ -323,7 +323,7 @@ nav h1 a {
 }
 
 #reviews-list > li > :nth-child(1) {
-  width:50%;
+  width:100%;
   padding-inline-start: 10px;
   text-align: left;
   font-size: 1.5rem;
@@ -333,13 +333,11 @@ nav h1 a {
   }
 
 #reviews-list > li > :nth-child(2) {
-  width: 50%;
-  
-  text-align: right;
-  color: #FFFFFF;
-  text-align: right center;
+  text-align: left;
+  background: orange;
+   text-align: right center;
   font-size: 1.5rem;
-  background: #252831; 
+  color: #ffffff;
 
 
 }
